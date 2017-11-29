@@ -244,7 +244,7 @@ const doc = Vue.component('doc', {
       props: ["nav"],
       data() {
         return {
-          login: login,
+          login,
           name: ''
         }
       },
